@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+h1{
+    font-size:50px;
+}
+.Name_color{
+    color:orange;
+}
+.Frist_sec{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 20px;
+} 
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    padding-left: 2%;
+}
+.half_width img {
+    width: 80%;
+    padding-left: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.half_width img:hover{
+    width:85%;
+}
+div .margin{
+    margin-left: 30px;
+}
+.link_btn{
+    text-decoration:none;
+    background-image: linear-gradient(orange,red,green);
+    padding:5px 10px;
+    border-radius: 5px;
+    font-size: 15;
+    color: white;
+}
+.link_btn:hover{
+    background-image: linear-gradient(green,red );
+    color: black;
+    font-size: 20px;
+    padding:8px 12px;
+}
+p:hover{
+    color: darkorange;
+}
+h6{
+    text-align: center;
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
